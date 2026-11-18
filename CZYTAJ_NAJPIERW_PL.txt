@@ -1,0 +1,43 @@
+CO TANKER INTELLIGENCE v1.6 - GITHUB EASY
+==========================================
+
+To wariant do SAMODZIELNEGO wdrożenia na GitHub Pages, oparty na przesłanym ZIP-ie v1.6.
+Zmiana względem oryginalnego ZIP-a: automatyczne uruchomienie workflow po wgraniu
+nowych plików docs/ agent/ i .github/workflows/collect.yml na gałąź main.
+Brak zmian w interfejsie i funkcjach aplikacji. Nie jest to wersja 1.7.
+
+PIERWSZA INSTALACJA
+1. Rozpakuj ZIP. Wgraj foldery .github, agent, docs do GŁÓWNEGO katalogu
+   repozytorium GitHub (nie wgrywaj samego ZIP ani całego folderu nadrzędnego).
+2. Ustaw Settings -> Pages -> Build and deployment -> Source: GitHub Actions.
+3. Otwórz Actions -> CO Tanker Intelligence - Scheduled Public-Source Watch
+   -> Run workflow -> main -> Run workflow.
+4. Gdy uruchomienie i deployment są zielone, otwórz adres z Settings -> Pages.
+5. Na Samsungu: Chrome -> menu trzy kropki -> Zainstaluj aplikację.
+
+WAŻNE: Jeśli nie widać workflow, sprawdź plik:
+  .github/workflows/collect.yml
+na gałęzi main.
+
+AKTUALIZACJE
+- Zawsze to samo repozytorium i ten sam adres! Nie zakładaj nowego.
+- W nowym ZIP-ie zastąp pliki w docs/ i agent/; jeśli zmienił się workflow,
+  zastąp także .github/workflows/collect.yml.
+- Nie zastępuj danych w docs/data/intelligence.json STARYM pustym plikiem,
+  aby nie skasować historii kanału. W każdej nowej wersji pomiń ten plik.
+- Wgraj pliki przez Code -> Add file -> Upload files -> Commit changes.
+- Ustawiony tu push uruchomi Actions automatycznie po zmianie plików.
+- Zawsze sprawdź status Actions i opublikowanej Pages.
+- Zapisane checklisty i notatki są lokalne: wykonaj Export backup przed zmianą.
+
+INFORMACJE O BEZPIECZEŃSTWIE
+- Publiczny GitHub Pages oznacza publiczny kod i publiczne wiadomości.
+- Nie umieszczaj danych załogi, instrukcji firmowych, haseł lub prywatnych
+  dokumentów statku w repozytorium.
+- Monitoring nie jest pełnym autopilotem prawnym ani generatorem zatwierdzonych
+  porad operacyjnych. Zawsze sprawdzaj oficjalne źródła.
+
+PRYWATNA GOTOWA APLIKACJA (inna instalacja, niezależna od tego repozytorium):
+https://co-tanker-intelligence-watch.koszykrozmaity.chatgpt.site/#watch
+Dostęp zależy od faktycznych uprawnień konta ChatGPT / właściciela aplikacji.
+Adresu tego nie udało się zweryfikować z bieżącego środowiska.

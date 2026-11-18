@@ -1,0 +1,120 @@
+[
+  {
+    "id": "imo",
+    "name": "IMO press briefings",
+    "url": "https://www.imo.org/en/mediacentre/pressbriefings/pages/default.aspx",
+    "host": "www.imo.org",
+    "mode": "html",
+    "selector": "a[href*='/mediacentre/pressbriefings/pages/']",
+    "path_rule": "/mediacentre/pressbriefings/pages/",
+    "topic": "IMO / SOLAS / MARPOL",
+    "region": "Global",
+    "extra_hosts": [
+      "wwwcdn.imo.org"
+    ]
+  },
+  {
+    "id": "imo_meetings",
+    "name": "IMO meeting summaries",
+    "url": "https://www.imo.org/en/mediacentre/meetingsummaries/pages/default.aspx",
+    "host": "www.imo.org",
+    "mode": "html",
+    "selector": "a[href*='/mediacentre/meetingsummaries/pages/']",
+    "path_rule": "/mediacentre/meetingsummaries/pages/",
+    "topic": "IMO regulatory meetings",
+    "region": "Global"
+  },
+  {
+    "id": "cyprus",
+    "name": "Cyprus Flag circulars",
+    "url": "https://www.gov.cy/dms/en/documents/circulars-{year}/",
+    "host": "www.gov.cy",
+    "mode": "cyprus",
+    "selector": "tr a[href], a[href$='.pdf'], a[href*='/documents/']",
+    "path_rule": "",
+    "topic": "Cyprus Flag",
+    "region": "Flag",
+    "xpath": "//tr[td]//td[last()]//a[@href]"
+  },
+  {
+    "id": "paris",
+    "name": "Paris MoU news",
+    "url": "https://parismou.org/posts/news/",
+    "host": "parismou.org",
+    "mode": "html",
+    "selector": "article h2 a[href],article h3 a[href],h2.entry-title a[href],h3.entry-title a[href],a[href*='/posts/news/']",
+    "path_rule": "",
+    "topic": "PSC",
+    "region": "Europe",
+    "xpath": "//article//h2//a[@href] | //article//h3//a[@href] | //h2[contains(@class,'entry-title')]//a[@href] | //h3[contains(@class,'entry-title')]//a[@href] | //a[contains(@href,'/posts/news/')]"
+  },
+  {
+    "id": "ocimf",
+    "name": "OCIMF news and resources",
+    "url": "https://www.ocimf.org/news-and-events/newsletter",
+    "host": "www.ocimf.org",
+    "mode": "html",
+    "selector": "a[href*='/news-and-events/']",
+    "path_rule": "/news-and-events/",
+    "topic": "SIRE 2.0 / OCIMF",
+    "region": "Global",
+    "extra_hosts": [
+      "support.ocimf.org"
+    ]
+  },
+  {
+    "id": "cdi",
+    "name": "CDI-M news",
+    "url": "https://www.cdim.org/psp/cdim.wp_news",
+    "host": "www.cdim.org",
+    "mode": "html",
+    "selector": "a[href*='cdim.wp_news_item']",
+    "path_rule": "cdim.wp_news_item",
+    "topic": "CDI-M",
+    "region": "Global"
+  },
+  {
+    "id": "emsa",
+    "name": "EMSA latest news",
+    "url": "https://www.emsa.europa.eu/newsroom/latest-news.html",
+    "host": "www.emsa.europa.eu",
+    "mode": "html",
+    "selector": "a[href*='/newsroom/latest-news/']",
+    "path_rule": "/newsroom/latest-news/",
+    "topic": "EU maritime safety",
+    "region": "Europe"
+  },
+  {
+    "id": "intertanko",
+    "name": "INTERTANKO public news",
+    "url": "https://www.intertanko.com/news-desk",
+    "host": "www.intertanko.com",
+    "mode": "html",
+    "selector": "a[href*='/news-desk/']",
+    "path_rule": "/news-desk/",
+    "topic": "Tanker industry",
+    "region": "Global"
+  },
+  {
+    "id": "bimco",
+    "name": "BIMCO news",
+    "url": "https://www.bimco.org/news-insights/bimco-news/",
+    "host": "www.bimco.org",
+    "mode": "html",
+    "selector": "a[href*='/news-insights/bimco-news/']",
+    "path_rule": "/news-insights/bimco-news/",
+    "topic": "Maritime industry",
+    "region": "Global"
+  },
+  {
+    "id": "mca",
+    "name": "UK MCA news",
+    "url": "https://www.gov.uk/government/organisations/maritime-and-coastguard-agency",
+    "host": "www.gov.uk",
+    "mode": "html",
+    "selector": "a[href*='/government/news/'],a[href*='/government/publications/']",
+    "path_rule": "/government/",
+    "topic": "UK maritime notices",
+    "region": "Europe"
+  }
+]
