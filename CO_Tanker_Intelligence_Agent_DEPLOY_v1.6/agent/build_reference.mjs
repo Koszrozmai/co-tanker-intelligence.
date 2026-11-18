@@ -1,0 +1,11 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {validateRun,emptyFeed,mergeRun} from './watch_store.mjs';
+const read=name=>JSON.parse(readFileSync(new URL(name,import.meta.url),'utf8'));
+const registry=read('sources.json'),articles=read('reference_articles.json');
+const verified=articles.find(row=>row.verified_at)?.verified_at;
+const ids=[...new Set(articles.map(x=>x.source_id))];
+const at=verified+'T00:00:00Z';
+const draft=validateRun({run_id:'bundled-reference-'+verified,checks:ids.map(source_id=>({source_id,status:'ok',detail:'Referenced original opened for the release.'})),articles},registry,at);
+const feed=await mergeRun(emptyFeed(registry),draft,registry,at);
+Object.assign(feed,{collector_status:'REFERENCE_SNAPSHOT',generated_at:null,reference_checked:verified,delivery:'bundled-reference',runs:[],sources:registry.map(s=>emptyFeed([s]).sources[0]),briefing:null});
+writeFileSync(new URL('../docs/release_reference.js',import.meta.url),'export const RELEASE_REFERENCE = '+JSON.stringify(feed)+';\n');

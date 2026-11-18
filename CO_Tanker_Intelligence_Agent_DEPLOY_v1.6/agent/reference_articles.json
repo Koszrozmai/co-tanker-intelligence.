@@ -1,0 +1,243 @@
+[
+  {
+    "source_id": "imo_meetings",
+    "url": "https://www.imo.org/en/mediacentre/meetingsummaries/pages/preview-mepc-85.aspx",
+    "title": "Ballast water amendments on the MEPC 85 agenda",
+    "topic": "Environment / ballast water",
+    "legal_status": "proposal",
+    "scope": "original",
+    "published": null,
+    "updated_at_source": null,
+    "event_start": "2026-11-30",
+    "event_end": "2026-12-03",
+    "summary": "IMO lists a revised annex to the Ballast Water Management Convention for possible adoption at MEPC 85, scheduled for 30 November to 3 December 2026. The preview gives no entry-into-force date for these amendments.",
+    "co_note": "When the meeting report is published, look for an adopted resolution, its application criteria and its effective date before proposing a change to the ship's ballast documentation.",
+    "quiz": {
+      "question": "What does the MEPC 85 preview establish about the ballast water amendments?",
+      "choices": [
+        "Every tanker must update its ballast plan before the meeting.",
+        "A revised annex is scheduled for consideration at the meeting.",
+        "3 December is the amendments' entry-into-force date."
+      ],
+      "answer": 1,
+      "explanation": "The preview sets out the Committee's intended work. The outcome and any effective date require a follow-up check against the adopted text."
+    },
+    "verified_at": "2026-11-18"
+  },
+  {
+    "source_id": "cdi",
+    "url": "https://www.cdim.org/psp/cdim.wp_news_item?p_inf_number=511&p_session_id=",
+    "title": "CDI schedules alternative-energy inspection chapters for 14 December",
+    "topic": "CDI-M / inspection preparation",
+    "legal_status": "information",
+    "scope": "original",
+    "published": "2026-09-15",
+    "updated_at_source": null,
+    "event_start": "2026-12-14",
+    "event_end": null,
+    "summary": "CDI plans to add chapters 15–24 to its tenth-edition Ship Inspection Report on 14 December 2026. They cover technologies used for fuel and power, including shore power and shaft or engine power limitation.",
+    "co_note": "For the next CDI inspection, identify which listed technologies are fitted or used on the vessel. A chemical named on a cargo manifest does not establish that the ship uses it as fuel.",
+    "quiz": {
+      "question": "What does 14 December 2026 refer to in the CDI announcement?",
+      "choices": [
+        "A deadline to install shore power on every tanker.",
+        "The planned launch of the AEPS inspection questionnaire.",
+        "An IMO deadline to convert cargo tanks for alternative fuels."
+      ],
+      "answer": 1,
+      "explanation": "CDI announced a change to its inspection programme. The relevance of each technology depends on the ship."
+    },
+    "verified_at": "2026-11-18"
+  },
+  {
+    "source_id": "imo",
+    "url": "https://www.imo.org/en/mediacentre/pressbriefings/pages/imo-secretary-general-calls-for-enforcement-of-maritime-rules.aspx",
+    "title": "IMO calls for enforcement of maritime rules in the Strait of Hormuz",
+    "topic": "IMO / seafarer protection",
+    "legal_status": "information",
+    "scope": "original",
+    "published": "2026-11-11",
+    "updated_at_source": null,
+    "event_start": null,
+    "event_end": null,
+    "summary": "The Secretary-General called on States to enforce existing maritime conventions within their jurisdictions and urged operators to protect seafarers from unacceptable risks.",
+    "co_note": "Classify this item as an official public statement. For a voyage review use current company and competent-authority information through established channels.",
+    "quiz": {
+      "question": "How should this IMO publication be filed?",
+      "choices": [
+        "As a public statement on enforcing existing rules.",
+        "As a newly adopted convention amendment.",
+        "As voyage authorisation for a particular ship."
+      ],
+      "answer": 0,
+      "explanation": "The publication reports a call for enforcement and protection of seafarers. It sets no commencement date for a new rule."
+    },
+    "verified_at": "2026-11-18"
+  },
+  {
+    "source_id": "intertanko",
+    "url": "https://www.intertanko.com/news-desk/newsdeskarticle/intertanko-calls-for-clarity-and-consistency-ahead-of-eu-ship-source-pollution-directive-transposition",
+    "title": "INTERTANKO comments on EU ship-source pollution transposition",
+    "topic": "Environment / European Union",
+    "legal_status": "under review",
+    "scope": "listing",
+    "published": "2026-11-13",
+    "updated_at_source": null,
+    "event_start": null,
+    "event_end": null,
+    "summary": "",
+    "co_note": "",
+    "quiz": null,
+    "verified_at": null
+  },
+  {
+    "source_id": "mca",
+    "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction/mgn-199-m-amendment-1-danger-of-interaction",
+    "title": "MCA updates guidance on hydrodynamic interaction",
+    "topic": "UK MCA / bridge team training",
+    "legal_status": "guidance",
+    "scope": "original",
+    "published": "2026-11-03",
+    "updated_at_source": null,
+    "event_start": null,
+    "event_end": null,
+    "summary": "MGN 199 (M) Amendment 1 covers vessel interaction and squat in confined or shallow waters. It includes incident examples and discussion of close-quarters manoeuvring.",
+    "co_note": "For bridge-team familiarisation, use the MCA cases to discuss where local passage planning and pilotage information are needed. Keep ship-specific limits in the approved passage plan.",
+    "quiz": {
+      "question": "Which topic belongs in a briefing based on MGN 199 (M)?",
+      "choices": [
+        "Hydrodynamic interaction in restricted water.",
+        "Cargo tank coating approval.",
+        "The date of the next CDI inspection."
+      ],
+      "answer": 0,
+      "explanation": "The notice addresses manoeuvring effects in shallow or confined waterways."
+    },
+    "verified_at": "2026-11-18"
+  },
+  {
+    "source_id": "ocimf",
+    "url": "https://www.ocimf.org/news-and-events/newsletter/issue-164-october-2026",
+    "title": "SIRE 2.0 feedback and human factors in practice",
+    "topic": "OCIMF / vetting",
+    "legal_status": "information",
+    "scope": "original",
+    "published": "2026-11-04",
+    "updated_at_source": null,
+    "event_start": null,
+    "event_end": null,
+    "summary": "In newsletter 164, OCIMF describes how inspection experience and feedback inform SIRE 2.0. Its Human Factors Committee discussed inspector training and the quality of observations.",
+    "co_note": "For a practice interview, choose one actual deck task and explain how the team knew it could be performed as planned. This is a learning exercise created for the Watch.",
+    "quiz": {
+      "question": "What did the Human Factors Committee discuss in this issue?",
+      "choices": [
+        "A new fixed score for every interview.",
+        "Improving inspector training and human-factor observations.",
+        "A new statutory certificate for deck crews."
+      ],
+      "answer": 1,
+      "explanation": "OCIMF describes work on guidance, training and observations in its industry programme."
+    },
+    "verified_at": "2026-11-18"
+  },
+  {
+    "source_id": "mca",
+    "url": "https://www.gov.uk/government/consultations/consultation-on-proposed-merchant-shipping-and-fishing-vessels-provision-and-use-of-work-equipment-amendment-regulations-2027/consultation-document-draft-merchant-shipping-and-fishing-vessels-provision-and-use-of-work-equipment-amendment-regulations-2027",
+    "title": "UK seeks comments on work-equipment conformity and digital evidence",
+    "topic": "UK MCA / work equipment",
+    "legal_status": "proposal",
+    "scope": "original",
+    "published": "2026-11-17",
+    "updated_at_source": null,
+    "event_start": "2026-11-17",
+    "event_end": "2026-12-15",
+    "summary": "The MCA opened a consultation on changes to UK shipboard work-equipment rules. The draft discusses conformity marking and how inspection evidence may be presented. Comments close on 15 December 2026.",
+    "co_note": "Keep the consultation in the regulatory watchlist. Record any final instrument, its scope and its commencement separately when published.",
+    "quiz": {
+      "question": "Which milestone is confirmed for 15 December 2026?",
+      "choices": [
+        "All ships must replace equipment labels.",
+        "The proposed rules enter into force.",
+        "The period for submitting comments closes."
+      ],
+      "answer": 2,
+      "explanation": "The MCA gives this date for feedback on a draft. Implementation is a separate legislative step."
+    },
+    "verified_at": "2026-11-18"
+  },
+  {
+    "source_id": "imo",
+    "url": "https://www.imo.org/en/mediacentre/pressbriefings/pages/imo-council-c138-urges-stronger-protection-of-seafarers-amid-threats-to-global-shipping-.aspx",
+    "title": "IMO Council calls for protection of crews",
+    "topic": "Seafarer welfare / maritime security",
+    "legal_status": "information",
+    "scope": "original",
+    "published": "2026-11-06",
+    "updated_at_source": null,
+    "event_start": null,
+    "event_end": null,
+    "summary": "At its November session the IMO Council called on States to protect seafarers and asked the Secretary-General to keep members informed about maritime security developments.",
+    "co_note": "Use the bulletin as background for a crew briefing. Confirm voyage-specific information with the Master and company security officer through the ship's established channels.",
+    "quiz": {
+      "question": "How should a Chief Officer record this Council briefing?",
+      "choices": [
+        "As a new certificate renewal requirement.",
+        "As clearance for a specific voyage.",
+        "As an IMO communication on seafarer protection."
+      ],
+      "answer": 2,
+      "explanation": "The Council addresses protection of crews and continued monitoring. The bulletin gives no route-specific clearance or certificate deadline."
+    },
+    "verified_at": "2026-11-18"
+  },
+  {
+    "source_id": "ocimf",
+    "url": "https://support.ocimf.org/hc/en-gb/articles/26006339996957-SIRE-2-0-Inspection-Flow-Process",
+    "title": "When the vessel operator can comment on a SIRE 2.0 report",
+    "topic": "SIRE 2.0 / vetting",
+    "legal_status": "guidance",
+    "scope": "original",
+    "published": null,
+    "updated_at_source": "2026-06-24",
+    "event_start": null,
+    "event_end": null,
+    "summary": "OCIMF explains that the submitting member reviews the inspector's report and can send it back for changes. The vessel operator can add comments once the submitting member validates it.",
+    "co_note": "Check the report's status before preparing comments with the operator. Keep the ship's supporting evidence with its inspection record.",
+    "quiz": {
+      "question": "At which stage does the vessel operator gain access to enter comments?",
+      "choices": [
+        "When the inspector first starts writing the report.",
+        "After the submitting member validates the report.",
+        "Only after the report has been published."
+      ],
+      "answer": 1,
+      "explanation": "OCIMF identifies the Submitter Validated stage as the point at which the operator can comment."
+    },
+    "verified_at": "2026-11-18"
+  },
+  {
+    "source_id": "paris",
+    "url": "https://parismou.org/download/press-release-cic-cargo-securing-2026-including-questionnaire/",
+    "title": "Which cargo falls within the 2026 PSC securing campaign?",
+    "topic": "PSC / inspections",
+    "legal_status": "information",
+    "scope": "original",
+    "published": "2026-08-03",
+    "updated_at_source": null,
+    "event_start": "2026-09-01",
+    "event_end": "2026-11-30",
+    "summary": "During routine inspections from 1 September to 30 November 2026, the Paris and Tokyo MoUs are examining how cargo units and cargo transport units are secured. The questionnaire opens by asking whether the campaign applies to the vessel.",
+    "co_note": "For a tanker, identify any cargo units or cargo transport units actually carried. A cargo parcel carried in bulk in the ship's own tanks is outside the stated unit-securing scope.",
+    "quiz": {
+      "question": "What should you establish first when preparing a tanker for this campaign?",
+      "choices": [
+        "Whether the ship carries cargo units or cargo transport units within the campaign's scope.",
+        "Whether the ship has already completed its annual SIRE review.",
+        "Whether the bulk cargo tanks are more than half full."
+      ],
+      "answer": 0,
+      "explanation": "The campaign covers securing cargo units and cargo transport units. Applicability is the first item on the published questionnaire."
+    },
+    "verified_at": "2026-11-18"
+  }
+]
